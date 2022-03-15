@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,100&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;;
+}
+
+#container {
+    max-width: 400px;
+}
+
+.title {
+    color: rgb(43, 38, 38);
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+input[type=text],
+input[type=text]:focus{
+    color: #fff;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    max-width: 400px;
+    box-shadow: 1px 2px 3px black;
+}
+
+.lista-container li {
+    background-color: black;
+    cursor: pointer;
+}
+
+
+small{
+    color: #fff;
+}
+
+.hidden {
+    display: none;
+}
